@@ -4,11 +4,196 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Austoservice - Быстро. Качественно. Доступно.</title>
+  <title>AustoService. Мастерский ремонт - Быстро. Качественно. Доступно.</title>
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+  <header class="header">
+    <div class="container">
+      <img class="header__logo" src="img/header/logo.svg" alt="Логотип компании AustoService." width="254" height="40">
+      <button class="header__button">Выбрать специалиста</button>
+    </div>
+    <!-- /.container -->
+  </header>
+
+  <main>
+    <h1>AustoService - Занимаемся ремонтом автомобилей, запишись на ремонт онлайн.</h1>
+    <section class="hero">
+      <div class="container">
+        <h2 class="hero__title">
+          <span class="hero__title-up">Мастерский</span>
+          <span class="hero__title-down">ремонт</span>
+        </h2>
+        <!-- /.hero__title -->
+        <p class="hero__year">
+          <time datetime="2018">с 2018 года</time>
+        </p>
+        <p class="hero__tagline">Быстро. Качественно. Доступно.</p>
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.hero -->
+
+    <section class="about">
+      <div class="container">
+        <h2 class="about__title">Почему мы</h2>
+        <p class="about__text">С момента основания нашей автомастерской мы уделяем особое внимание каждой детали
+          иработаем с любыми марками автомобилей.</p>
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.about -->
+
+    <section class="contact">
+      <div class="container">
+        <h2 class="contact__title">Заполните форму и мы свяжемся с вами </h2>
+        <form class="contact__form form">
+          <fieldset class="form__fieldset">
+            <legend class="form__title">Выберите нужное направление</legend>
+            <!-- /.form__title -->
+            <label class="form__item radio">
+              <input type="radio" name="type" class="radio__input">Кузовной ремонт
+            </label>
+            <label class="form__item radio">
+              <input type="radio" name="type" class="radio__input">Диагностика и ремонт двигателей
+            </label>
+            <label class="form__item radio">
+              <input type="radio" name="type" class="radio__input">Электрика и электроника
+            </label>
+            <label class="form__item radio">
+              <input type="radio" name="type" class="radio__input">Тормозные системы и ходовая часть
+            </label>
+            <label class="form__item radio">
+              <input type="radio" name="type" class="radio__input">Сварочные работы
+            </label>
+            <label class="form__item radio">
+              <input type="radio" name="type" class="radio__input">Ремонт и обслуживание системы кондиционирования
+            </label>
+            <label class="form__item radio">
+              <input type="radio" name="type" class="radio__input">Замена масел и техническое обслуживание
+            </label>
+            <label class="form__item radio">
+              <input type="radio" name="type" class="radio__input">Ремонт трансмиссии и коробки передач
+            </label>
+            <label class="form__item radio">
+              <input type="radio" name="type" class="radio__input">Шиномонтаж и балансировка
+            </label>
+          </fieldset>
+          <!-- /.form__fieldset -->
+          <fieldset class="form__fieldset">
+            <legend class="form__title">Выберите дату и время</legend>
+            <!-- /.form__title -->
+            <div class="form__months">
+              <button class="form__btn-months">Февраль</button>
+              <button class="form__btn-months">Март</button>
+              <button class="form__btn-months">Апрель</button>
+            </div>
+            <div>
+              <label class="form__item radio">
+                <input type="radio" name="day" class="radio__input">11
+              </label>
+              <label class="form__item radio">
+                <input type="radio" name="day" class="radio__input">12
+              </label>
+              <label class="form__item radio">
+                <input type="radio" name="day" class="radio__input">13
+              </label>
+              <label class="form__item radio">
+                <input type="radio" name="day" class="radio__input">14
+              </label>
+              <label class="form__item radio">
+                <input type="radio" name="day" class="radio__input">15
+              </label>
+              <label class="form__item radio">
+                <input type="radio" name="day" class="radio__input">16
+              </label>
+              <label class="form__item radio">
+                <input type="radio" name="day" class="radio__input">17
+              </label>
+              <label class="form__item radio">
+                <input type="radio" name="day" class="radio__input">18
+              </label>
+              <label class="form__item radio">
+                <input type="radio" name="day" class="radio__input">19
+              </label>
+              <label class="form__item radio">
+                <input type="radio" name="day" class="radio__input">20
+              </label>
+            </div>
+            <div>
+              <p>Доступное время:</p>
+
+              <label class="form__item radio">
+                <input type="radio" name="time" class="radio__input">10:00
+              </label>
+              <label class="form__item radio">
+                <input type="radio" name="time" class="radio__input">14:00
+              </label>
+              <label class="form__item radio">
+                <input type="radio" name="time" class="radio__input">15:00
+              </label>
+              <label class="form__item radio">
+                <input type="radio" name="time" class="radio__input">17:00
+              </label>
+              <label class="form__item radio">
+                <input type="radio" name="time" class="radio__input">20:00
+              </label>
+            </div>
+          </fieldset>
+          <!-- /.form__fieldset -->
+          <fieldset class="form__fieldset">
+            <legend class="form__title">Заполните поля</legend>
+            <!-- /.form__title -->
+            <input type="text" name="name" placeholder="Имя">
+            <input type="text" name="phone" placeholder="Телефон">
+            <input type="text" name="car" placeholder="Модель и марка автомобиля">
+            <input type="text" name="year" placeholder="Год выпуска">
+
+            <p class="form__info-type">Диагностика и ремонт двигателей</p>
+            <p class="form__info-date date">
+              <time class="date__day" datetime="02-03">03.02</time>
+              <time class="date__time" datetime="14:00">14:00</time>
+            </p>
+          </fieldset>
+          <!-- /.form__fieldset -->
+          <div class="form__btn-wrapper">
+            <button class="form__btn">Назад</button>
+            <button class="form__btn">Далее</button>
+          </div>
+        </form>
+        <!-- /.contact__form -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.contact -->
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__logo">
+        <img src="img/header/logo.svg" alt="Логотип компании AustoService.">
+      </div>
+
+      <div class="footer__wrapper">
+        <p class="footer__copyright">
+          <small>© AutoService, 2024</small>
+        </p>
+
+        <ul class="footer__developers developer">
+          <li class="developer__item">Designer:
+            <a href="#" class="developer__link">Anastasia Ilina</a>
+          </li>
+          <li class="developer__item">Developer:
+            <a href="#" class="developer__link">Dmitriy Shapovalov</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.footer__wrapper -->
+    </div>
+    <!-- /.container -->
+  </footer>
   <script src="js/script.js"></script>
 </body>
 
