@@ -1,0 +1,37 @@
+.hero {
+    background: url("../img/hero/wheel.png") center / contain no-repeat;
+}
+
+.hero__title {
+    padding-top: 98px;
+    display: flex;
+    flex-direction: column;
+    color: var(--current-color);
+    font-size: 160px;
+    font-weight: 900;
+    line-height: 150%;
+}
+
+.hero__title-down {
+    align-self: flex-end;
+    margin-top: -70px;
+}
+
+.hero__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero__year {
+    color: var(--current-color);
+    font-weight: 500;
+    max-width: max-content;
+}
+.hero__tagline {
+    color: var(--second-color);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 120%;
+    max-width: min-content;
+}

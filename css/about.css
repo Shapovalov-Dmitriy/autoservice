@@ -1,0 +1,67 @@
+.about {
+    margin-top: 153px;
+    padding: 210px 0;
+    position: relative;
+    min-height: 805px;
+    display: flex;
+    background-color: var(--second-color);
+    transform: skewY(-6deg);
+}
+
+.about__container::after,
+.about__container::before {
+    content: "";
+    pointer-events: none;
+    background-image: url("../img/pattern/tire.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 25vw;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.about__container::before {
+    top: 0;
+    width: 100%;
+    transform: translateY(-40%) rotate(6deg) skewX(5deg);
+}
+
+.about__container::after {
+    bottom: 0;
+    transform: translateY(40%) rotate(186deg) skewX(5deg);
+}
+.about__container {
+    align-self: center;
+}
+
+.about__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    transform: skewY(6deg);
+}
+.about__title {
+    padding: 14px 60px 14px 0;
+    color: var(--current-color);
+    text-align: right;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 120%;
+    text-transform: uppercase;
+    max-width: 417px;
+    justify-self: end;
+    border-right: 2px solid var(--current-color);
+}
+.about__title span {
+    color: #222;
+}
+.about__text {
+    padding: 14px 0 14px 60px;
+    color: var(--current-color);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 140%;
+    max-width: 511px;
+}

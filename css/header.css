@@ -1,0 +1,31 @@
+.header {
+    padding-top: 32px;
+}
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__logo {
+    flex: 0 0 254px;
+}
+.header__link {
+    display: inline-block;
+    border-radius: 50px;
+    padding: 12px 20px;
+    background-color: var(--bg-color);
+    color: var(--main-color);
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid transparent;
+    transition: all 0.3s ease 0s;
+}
+.header__link:hover {
+    background-color: #e4f0f0;
+}
+.header__link:focus {
+    background-color: #e4f0f0;
+}
+.header__link:active {
+    border-color: var(--second-color);
+}
