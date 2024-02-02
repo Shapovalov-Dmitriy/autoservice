@@ -2,7 +2,6 @@
     margin-top: 153px;
     padding: 210px 0;
     position: relative;
-    min-height: 805px;
     display: flex;
     background-color: var(--second-color);
     transform: skewY(-6deg);

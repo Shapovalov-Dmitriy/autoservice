@@ -5,14 +5,15 @@
 .footer__wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: 1fr;
-    align-items: center;
+    align-items: end;
     row-gap: 50px;
 }
 
 .footer__logo {
     grid-column: 1 / -1;
     grid-row: 1 / 2;
+    width: 100%;
+    max-width: 480px;
 }
 
 .footer__copyright {
@@ -34,7 +35,7 @@
     flex-direction: column;
 }
 
-.developer__item {
+.developer__item:not(:last-child) {
     margin-bottom: 7px;
 }
 

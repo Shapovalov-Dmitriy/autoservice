@@ -5,9 +5,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
 }
 .header__logo {
-    flex: 0 0 254px;
+    width: 254px;
 }
 .header__link {
     display: inline-block;
