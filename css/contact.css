@@ -24,6 +24,12 @@
     padding: 40px;
     border-radius: 32px;
 }
+.form__fieldset {
+    display: none;
+}
+.form__fieldset_active {
+    display: block;
+}
 
 .form__title {
     font-size: 24px;
@@ -141,6 +147,8 @@
     padding: 12px 20px;
     gap: 6px;
     border-radius: 50px;
+}
+.form__btn-prev {
     background-color: var(--bg-color);
     color: var(--main-color);
 }
@@ -160,7 +168,6 @@
 }
 
 .form__btn-submit {
-    display: none;
     background-color: var(--second-color);
     color: var(--current-color);
 }

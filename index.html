@@ -5,7 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AustoService. Мастерский ремонт &mdash; Быстро. Качественно. Доступно.</title>
+  <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
   <link rel="stylesheet" href="css/index.css">
+  <script src="js/index.js" defer></script>
 </head>
 
 <body>
@@ -55,7 +57,7 @@
       <div class="container">
         <h2 class="contact__title">Заполните форму и&nbsp;мы <span>свяжемся с&nbsp;вами</span></h2>
         <form class="contact__form form">
-          <fieldset class="form__fieldset">
+          <fieldset class="form__fieldset form__fieldset_active">
             <legend class="form__title">Выберите нужное направление</legend>
             <!-- /.form__title -->
 
@@ -172,8 +174,8 @@
               </div>
             </div>
 
-            <fieldset class="form__fieldset">
-              <legend class="form__title">Доступное время:</legend>
+            <div>
+              <p class="form__title">Доступное время:</p>
               <div class="form__wrapper">
                 <div class="radio">
                   <input type="radio" name="time" class="radio__input" id="time10:00">
@@ -196,7 +198,7 @@
                   <label class="radio__label" for="time20:00">20:00</label>
                 </div>
               </div>
-            </fieldset>
+            </div>
           </fieldset>
           <!-- /.form__fieldset -->
           <fieldset class="form__fieldset">
@@ -217,7 +219,7 @@
           </fieldset>
           <!-- /.form__fieldset -->
           <div class="form__btn-wrapper">
-            <button class="form__btn" type="button">
+            <button class="form__btn form__btn-prev" type="button">
               <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M0.46967 6.53033C0.176777 6.23744 0.176777 5.76256 0.46967 5.46967L5.24264 0.696699C5.53553 0.403806 6.01041 0.403806 6.3033 0.696699C6.59619 0.989593 6.59619 1.46447 6.3033 1.75736L2.06066 6L6.3033 10.2426C6.59619 10.5355 6.59619 11.0104 6.3033 11.3033C6.01041 11.5962 5.53553 11.5962 5.24264 11.3033L0.46967 6.53033ZM13 6.75H1V5.25H13V6.75Z"
@@ -267,7 +269,6 @@
     </div>
     <!-- /.container -->
   </footer>
-  <script src="js/script.js"></script>
 </body>
 
 </html>
